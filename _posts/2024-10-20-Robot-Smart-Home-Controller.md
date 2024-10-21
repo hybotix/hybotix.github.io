@@ -9,6 +9,7 @@ The following are code exerpts I am working with. I am pretty sure I am not supp
 array if Web_Page_Infor structs this way. I might have to define the array and initialize it in setup().
 
 ```
+{% highlight arduino %}
 #define INFO_PAGE_BASE                0
 
 #define PAGE_HOME_ID                  INFO_PAGE_BASE
@@ -91,6 +92,7 @@ String set_empty_page (QWIICMUX mx, Web_Page_Info page_info, uint16_t sequence_n
 
   return html;
 }
+{% endhighlight %}
 ```
 
 This is the error I am getting:
