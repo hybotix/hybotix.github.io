@@ -1,5 +1,9 @@
-Here you can say lots of fun things about your site.
+Welcome to my Technology Blog!
 
-Maybe say a some things about yourself.
+I am passionate about tinkering with  electronics and robotics! I design and build cool small to
+  medium-sized robots! My current project is the Robot Smart Home Controller which is a small robot
+  that can control my smart home and monitor the environment.
 
-Or maybe what you plan to blog about.
+You will find information about all of my projects, robots, etc. here
+
+#robotics #electronics #rshc #embedded #arduino #raspberrypi #microcontrollers
