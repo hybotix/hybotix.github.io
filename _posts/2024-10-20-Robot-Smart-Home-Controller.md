@@ -83,7 +83,7 @@ Web_Page_Info Web_Pages[MAX_NUM_INFO_PAGES] =
 String set_empty_page (QWIICMUX mx, Web_Page_Info page_info, uint16_t sequence_nr) {
   String date_time, html;
 
-  html =  page_info[PAGE_NO_DATA_ID].html;
+  html =  page_info[PAGE_NO_DATA_ID].html;    // Line 523
   date_time = timestamp(mx, page_info[PAGE_NO_DATA_ID].name, SHOW_FULL_DATE, SHOW_12_HOURS, SHOW_LONG_DATE, SHOW_SECONDS);
   Serial.println(page_info[PAGE_NO_DATA_ID].name);
   html.replace("PAGE_NAME_MARKER", page_info[PAGE_NO_DATA_ID].name);
@@ -92,4 +92,4 @@ String set_empty_page (QWIICMUX mx, Web_Page_Info page_info, uint16_t sequence_n
 
   return html;
 }
-```
+
