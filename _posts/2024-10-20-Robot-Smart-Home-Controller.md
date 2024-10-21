@@ -91,5 +91,13 @@ String set_empty_page (QWIICMUX mx, Web_Page_Info page_info, uint16_t sequence_n
 
   return html;
 }
-{% endhight %}
+{% endhighlight %}
+```
+
+This is the error I am getting:
+
+```
+D:\Dropbox\Arduino\SketchBook\Arduino_Portenta_C33\Robot_Smart_Home_Controller\Robot_Controller_Split_Code_V070\Robot_Controller_Split_Code_V070.ino: In function 'arduino::String set_empty_page(QWIICMUX, Web_Page_Info, uint16_t)':
+D:\Dropbox\Arduino\SketchBook\Arduino_Portenta_C33\Robot_Smart_Home_Controller\Robot_Controller_Split_Code_V070\Robot_Controller_Split_Code_V070.ino:523:20: error: no match for 'operator[]' (operand types are 'Web_Page_Info' and 'int')
+   html =  page_info[PAGE_NO_DATA_ID].html;
 ```
