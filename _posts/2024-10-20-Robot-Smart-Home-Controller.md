@@ -1,5 +1,5 @@
 ## Robot Smart Home Controller
-### Code reorganization and breakages
+### Code Reorganization and Breakages
 
 I am in the midst of a complete reorganiation of the code base. There is a breakage in new code. I am trying to
 initializ an array of structs, which is not working right now. I do not yet understand what I am doing wrong,
