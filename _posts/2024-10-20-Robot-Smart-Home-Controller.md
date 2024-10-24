@@ -92,7 +92,6 @@ String set_empty_page (QWIICMUX mx, Web_Page_Info page_info, uint16_t sequence_n
   return html;
 }
 {% endhighlight %}
-```
 
 This is the error I am getting:
 
