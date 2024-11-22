@@ -1,4 +1,4 @@
-## Robot Smart Home Controller and Super Pi 5 Update
+## Robot Smart Home Controller and Super Pi 5 Update and More
 
 I have received the new PCIe Switch Hat. I am not sure how I am going to route the FPC cables from the SSD/PoE HAT and the AI KIT to the PCIe Switch HAT. It is going to be an interesting build. I have to wait until I get a PoE Switch to test this because I can not power it up from USB when the PoE HAT is connected. I am not going to risk damaging the Pi 5.
 
