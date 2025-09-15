@@ -6,4 +6,4 @@ I am passionate about tinkering with  electronics and robotics! I design and bui
 
 You will find information about all of my projects, robots, etc. here
 
-#robotics #electronics #rshc #embedded #arduino #raspberrypi #microcontrollers
+#robotics #electronics #rshc #embedded #arduino #mecanum #agentic #raspberrypi #microcontrollers
